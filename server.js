@@ -9,6 +9,7 @@ var PORT = 3000;
 console.log(process.argv);
 var newPort = 0;
 
+// run with 'node server 80' to use port 80
 if (process.argv.length > 2) {
 //  console.log("Length: " + process.argv.length)
   newPort = Number(process.argv[2]);
