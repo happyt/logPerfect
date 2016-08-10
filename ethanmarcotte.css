@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+}
+
+.video-top {
+    padding-top: 56.25%;   /* 16 x 9 */
+    position: relative;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.episode:nth-child(2n) {
+    ...
+}
+.episode:nth-child(3n+1) {
+    ...
+}
+.episode:nth-child(3n-1) {
+    ...
+}
